@@ -1,0 +1,32 @@
+:root {
+    --bg-color: #fcf8f3;
+    --branding-color: #a163ff;
+    --secondary-color: #f9f7fe;
+    --heading-font-family: "Poppins", sans-serif;
+    --default-font-family: 'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: var(--bg-color);
+}
+h1{
+    font-family: var(--heading-font-family);
+    font-size: 60px;
+
+}
+h3{
+    font-family: var(--default-font-family);
+    font-size: 30px;
+}
+p{
+    font-family: var(--default-font-family);
+    font-size: 20px;
+}
+.project-content{
+    padding: 160px 20px;
+}
+@media (max-width: 900px) {
+    .content {
+        text-align: center;
+        padding: 0;
+      }    
+}

@@ -16,14 +16,21 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="projectStyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Source+Sans+Pro:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
   </head>
   <body>
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="logo.png" alt="logo" width="50px" />
+          <img src="images/logo.png" alt="logo" width="50px" />
         </a>
         <button
           class="navbar-toggler"
@@ -54,5 +61,32 @@
         </div>
       </div>
     </nav>
+    <!--content-->
+    <div class="container project-content">
+        <h1 class="text-center mb-5">My Projects👩‍💻</h1>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-6">
+            <img
+              src="images/landingpage.png"
+              class="img-fluid rounded mx-auto d-block"
+              alt="landing page image"
+            />
+            <h3 class="text-center m-0 mt-2">Landing Page Project</h3>
+            <p class="text-center text-muted">Built with HTML and CSS</p>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6">
+            <img
+              src="images/myWeather.png"
+              class="img-fluid rounded mx-auto d-block"
+              alt="weather app image"
+            />
+            <h3 class="text-center m-0 mt-2">Weather App Project</h3>
+            <p class="text-center text-muted">
+              Built with HTML, CSS and JavaScript
+            </p>
+          </div>
+        </div>
+      </div>
+  
   </body>
 </html>
