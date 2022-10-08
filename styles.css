@@ -2,9 +2,41 @@
     --bg-color: #fcf8f3;
     --branding-color: #a163ff;
     --secondary-color: #f9f7fe;
+    --default-button-color: #e9c305;
+    --box-shadow: #fffbe6;
     --heading-font-family: "Poppins", sans-serif;
     --default-font-family: 'Source Sans Pro', sans-serif;
 }
 body{
     background-color: var(--bg-color);
 }
+h1{
+    font-family: var(--heading-font-family);
+    font-size: 100px;
+}
+h2{
+    font-family: var(--default-button-color);
+    font-size: 60px;
+}
+h3{
+    font-family: var(--default-font-family);
+    font-size: 50px;
+}
+.content{
+    padding: 110px 50px;
+    text-align: center;
+
+}
+.btn-branding {
+    border-radius: 4px;
+    margin-top: 40px;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background: var(--default-button-color);
+    box-shadow: var(--box-shadow);
+    font-family: var(--default-font-family);
+    font-size: 20px;
+    color: white;
+  }
+  
